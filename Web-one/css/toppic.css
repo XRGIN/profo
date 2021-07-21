@@ -1,0 +1,21 @@
+.toppic {
+  position: absolute;
+  top: -50px;
+  left: -15%;
+}
+
+.toppic1 {
+  position: absolute;
+  top: -25px;
+  left: 52%;
+}
+
+.nameplace {
+  position: absolute;
+  top: -200px;
+  left: 25%;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=toppic.css.map */

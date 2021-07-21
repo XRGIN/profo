@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+#bdy {
+  background: #444444;
+  overflow: hidden;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 5px;
+}
+
+#bdy .bg {
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1000px;
+  width: 2000px;
+  opacity: 0.4;
+  position: relative;
+  top: 50%;
+  left: 0px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.bgani {
+  -webkit-animation-name: move;
+          animation-name: move;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+  }
+}
+
+@keyframes move {
+  0% {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+  }
+}
+/*# sourceMappingURL=body.css.map */
