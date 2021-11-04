@@ -1,4 +1,4 @@
-@media screen and (max-width:576px){
+@media screen and (min-width:576px) and (max-width:1024){
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 #bdy {
@@ -10,14 +10,14 @@
         background-repeat:repeat-y;
         background-size: cover;
         background-attachment: fixed;
-        height: 100%;
-        width: 100%;
+        height: 1000px;
+        width: 2000px;
         opacity: 0.4;
-        position: fixed;
-        z-index:-1;
-        
-        
-        
+        position: relative;
+        top: 50%;
+        left: 0px;
+        margin-left: -10px;
+        margin-top: -10px;
         
         
             

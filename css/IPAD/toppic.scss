@@ -1,21 +1,24 @@
-@media screen and (max-width: 576px) {
-  .toppic {
+@media screen and (min-width:576px) and (max-width:1024px){
+.toppic {
     position: absolute;
     top: -50px;
     left: -10%;
-  }
-  .toppic1 {
+    
+    
+}
+.toppic1 {
     position: absolute;
     top: -25px;
     left: 51.5%;
-  }
-  .nameplace {
+    
+}
+.nameplace {
     position: absolute;
     top: -200px;
     left: 25%;
     color: white;
+    
     font-size: 50px;
     font-weight: bold;
-  }
 }
-/*# sourceMappingURL=toppic.css.map */
+}
