@@ -223,10 +223,10 @@
   }
   .ccbtn {
     position: absolute;
-    top: 90%;
-    left: 93%;
-    width: 20px;
-    height: 20px;
+    top: 95%;
+    left: 90%;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
@@ -238,10 +238,10 @@
   }
   .ccbtncls {
     position: absolute;
-    top: 90%;
-    left: 93%;
-    width: 20px;
-    height: 20px;
+    top: 95%;
+    left: 90%;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
@@ -252,8 +252,8 @@
     background-color: rgba(151, 151, 151, 0.411);
   }
   .clrani {
-    -webkit-animation-name: clrani;
-            animation-name: clrani;
+    -webkit-animation-name: none;
+            animation-name: none;
     -webkit-animation-duration: 5s;
             animation-duration: 5s;
     -webkit-animation-fill-mode: forwards;
@@ -285,7 +285,7 @@
   }
   .clrtext {
     position: absolute;
-    top: 88%;
+    top: 85%;
     left: 93%;
     width: 2%;
     height: 2%;
