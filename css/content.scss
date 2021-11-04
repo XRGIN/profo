@@ -1,6 +1,6 @@
 .content {
     background-color: rgb(22, 22, 22);
-    opacity: 0.8;
+    opacity: 0.5;
     
     position: absolute;
     top: 10%;
@@ -200,15 +200,66 @@
         }
     }
     .home3 {
-       position: absolute;
+       position: relative;
        top: 1%;
        left: 5%;
        font-size: 30px; 
-    }
-    .h3 {
+       .h3 {
         position: absolute;
-        top: 100px;
-        left: 0px;
+        top: 40%;
+        left: 0%;
+        overflow: scroll;
+        background-color: rgb(50, 50, 50);
+        width: 90%;
+        height: 300%;
+        
+        border-radius: 5px;
+        overflow-x: unset;
+        word-wrap:break-word;
+        /*-------滾動條整體樣式----*/
+
+        &::-webkit-scrollbar {
+        
+            width:8px;
+            
+            height:8px;
+            
+            }
+            
+            /*滾動條裡面小方塊樣式*/
+            
+            &::-webkit-scrollbar-thumb {
+            
+            border-radius:100px;
+            
+            -webkit-box-shadow:inset 0 0 5px rgba(0,0,0,0.2);
+            
+            background:rgb(112, 112, 112);
+            
+            }
+            
+            /*滾動條裡面軌道樣式*/
+            
+            &::-webkit-scrollbar-track {
+            
+            -webkit-box-shadow:inset 0 0 5px rgba(0,0,0,0.2);
+            
+            border-radius:0;
+            
+            background:rgba(0,0,0,0.1);
+            
+            }
+        .imgchange{
+            position: relative;
+            top: 100px;
+        }
+        .vedio1 {
+            position: relative;
+            top: 150px;
+            
+        }
+    }
+    
     }
 }
 

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .content {
   background-color: #161616;
-  opacity: 0.8;
+  opacity: 0.5;
   position: absolute;
   top: 10%;
   left: 25%;
@@ -199,16 +199,53 @@
 }
 
 .content3 .home3 {
-  position: absolute;
+  position: relative;
   top: 1%;
   left: 5%;
   font-size: 30px;
 }
 
-.content3 .h3 {
+.content3 .home3 .h3 {
   position: absolute;
+  top: 40%;
+  left: 0%;
+  overflow: scroll;
+  background-color: #323232;
+  width: 90%;
+  height: 300%;
+  border-radius: 5px;
+  overflow-x: unset;
+  word-wrap: break-word;
+  /*-------滾動條整體樣式----*/
+  /*滾動條裡面小方塊樣式*/
+  /*滾動條裡面軌道樣式*/
+}
+
+.content3 .home3 .h3::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.content3 .home3 .h3::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #707070;
+}
+
+.content3 .home3 .h3::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.content3 .home3 .h3 .imgchange {
+  position: relative;
   top: 100px;
-  left: 0px;
+}
+
+.content3 .home3 .h3 .vedio1 {
+  position: relative;
+  top: 150px;
 }
 
 .content4 {
