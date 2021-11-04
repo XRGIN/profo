@@ -1,6 +1,6 @@
 @media screen and (max-width:576px){
 .btm {
-    padding: 30px;
+    padding: 40px;
     position: absolute;
     
     top: 90%;
@@ -199,11 +199,13 @@
 #list {
     &:hover {
         cursor: pointer;
+        opacity: 0.6;
     }
 }
 #listcls {
     &:hover {
         cursor: pointer;
+        opacity: 0.6;
     }
 }
 .listcont {
