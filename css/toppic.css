@@ -1,91 +1,104 @@
-@media screen and (max-width: 576px) {
-  .toppic {
-    position: absolute;
-    top: -50px;
-    left: -10%;
-  }
-  .toppic1 {
-    position: absolute;
-    top: -25px;
-    left: 53%;
-  }
-  .toppic2 {
-    position: absolute;
-    top: 29px;
-    left: 52%;
-  }
-  .toppic3 {
-    position: absolute;
-    top: 35px;
-    left: 29%;
-  }
-  .toppic4 {
-    position: absolute;
-    top: 35px;
-    left: 55%;
-  }
-  .toppic5 {
-    position: absolute;
-    top: -40px;
-    left: 54.5%;
-  }
-  .toppic6 {
-    position: absolute;
-    top: -25px;
-    left: -10%;
-  }
-  .toppic7 {
-    position: absolute;
-    top: 24px;
-    left: -10%;
-  }
-  .toppic8 {
-    position: absolute;
-    top: 30px;
-    left: 410px;
-  }
-  .toppic9 {
-    position: absolute;
-    top: -25px;
-    left: 460px;
-  }
-  .toppic10 {
-    position: absolute;
-    top: 50px;
-    left: 65px;
-  }
-  .toppic11 {
-    position: absolute;
-    top: 51px;
-    left: 360px;
-  }
-  .toppic12 {
-    position: absolute;
-    top: 100px;
-    left: 250px;
-  }
-  .toppic13 {
-    position: absolute;
-    top: 100px;
-    left: 65px;
-  }
-  .nameplace {
-    position: absolute;
-    top: -200px;
-    left: 25%;
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-  }
-  .cover {
-    background-color: white;
-    border-radius: 5px;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 5px;
-    left: 5%;
-    z-index: -99;
-  }
+.toppic {
+  position: absolute;
+  top: -50px;
+  left: -10%;
+}
+
+.toppic1 {
+  position: absolute;
+  top: -25px;
+  left: 53%;
+}
+
+.toppic2 {
+  position: absolute;
+  top: 29px;
+  left: 52%;
+}
+
+.toppic3 {
+  position: absolute;
+  top: 35px;
+  left: 29%;
+}
+
+.toppic4 {
+  position: absolute;
+  top: 35px;
+  left: 55%;
+}
+
+.toppic5 {
+  position: absolute;
+  top: -40px;
+  left: 54.5%;
+}
+
+.toppic6 {
+  position: absolute;
+  top: -25px;
+  left: -10%;
+}
+
+.toppic7 {
+  position: absolute;
+  top: 24px;
+  left: -10%;
+}
+
+.toppic8 {
+  position: absolute;
+  top: 30px;
+  left: 410px;
+}
+
+.toppic9 {
+  position: absolute;
+  top: -25px;
+  left: 460px;
+}
+
+.toppic10 {
+  position: absolute;
+  top: 50px;
+  left: 65px;
+}
+
+.toppic11 {
+  position: absolute;
+  top: 51px;
+  left: 360px;
+}
+
+.toppic12 {
+  position: absolute;
+  top: 100px;
+  left: 250px;
+}
+
+.toppic13 {
+  position: absolute;
+  top: 100px;
+  left: 65px;
+}
+
+.nameplace {
+  position: absolute;
+  top: -200px;
+  left: 25%;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.cover {
+  background-color: white;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  left: 5%;
+  z-index: -99;
 }
 /*# sourceMappingURL=toppic.css.map */

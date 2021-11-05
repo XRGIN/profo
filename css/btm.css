@@ -1,295 +1,336 @@
-@media screen and (max-width: 576px) {
-  .btm {
-    padding: 40px;
-    position: absolute;
-    top: 90%;
-    left: 80%;
-    margin: -25px 0 0 -350px;
-    font-size: 15px;
-    text-align: center;
-    color: white;
-    white-space: normal;
-    word-wrap: break-word;
-  }
-  .music {
-    position: absolute;
-    top: 90%;
-    left: 85%;
-    width: 20px;
-    height: 20px;
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-  }
-  .music:hover {
-    cursor: pointer;
-  }
-  .music2 {
-    position: absolute;
-    top: 90%;
-    left: 85%;
-    width: 20px;
-    height: 20px;
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-  }
-  .music2:hover {
-    cursor: pointer;
-  }
-  .music3 {
-    position: absolute;
-    top: 90%;
-    left: 85%;
-    width: 20px;
-    height: 20px;
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-  }
-  .music3:hover {
-    cursor: pointer;
-  }
-  .namespace {
-    position: absolute;
-    top: 70%;
-    left: 40%;
-    width: 20%;
-    height: 5%;
-    border-radius: 15%;
-    z-index: -1;
-    background-color: rgba(255, 255, 255, 0.24);
-    overflow: hidden;
-  }
-  .namespace .m0 {
+.btm {
+  padding: 40px;
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  margin: -25px 0 0 -350px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.music {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.music:hover {
+  cursor: pointer;
+}
+
+.music2 {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.music2:hover {
+  cursor: pointer;
+}
+
+.music3 {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.music3:hover {
+  cursor: pointer;
+}
+
+.namespace {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  width: 20%;
+  height: 5%;
+  border-radius: 15%;
+  z-index: -1;
+  background-color: rgba(255, 255, 255, 0.24);
+  overflow: hidden;
+}
+
+.namespace .m0 {
+  opacity: 1;
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  width: 500px;
+  height: 500px;
+  white-space: nowrap;
+  color: #eaa6ff;
+  z-index: 1;
+}
+
+.namespace .m1 {
+  opacity: 0;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  white-space: nowrap;
+  color: black;
+  -webkit-animation: m1ani 30s infinite;
+          animation: m1ani 30s infinite;
+}
+
+.namespace .m1:hover {
+  cursor: default;
+}
+
+.namespace .m2 {
+  opacity: 0;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  white-space: nowrap;
+  color: black;
+}
+
+.namespace .m2:hover {
+  cursor: default;
+}
+
+.namespace .m3 {
+  opacity: 0;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  white-space: nowrap;
+  color: black;
+}
+
+.namespace .m3:hover {
+  cursor: default;
+}
+
+.namespace .m4 {
+  opacity: 0;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  white-space: nowrap;
+  color: black;
+}
+
+.namespace .m4:hover {
+  cursor: default;
+}
+
+.m1ani {
+  -webkit-animation: m1ani 30s linear infinite;
+          animation: m1ani 30s linear infinite;
+}
+
+@-webkit-keyframes m1ani {
+  0% {
+    left: 100%;
     opacity: 1;
-    position: absolute;
-    top: 0%;
-    left: 20%;
-    width: 500px;
-    height: 500px;
-    white-space: nowrap;
-    color: #eaa6ff;
-    z-index: 1;
   }
-  .namespace .m1 {
+  98% {
+    left: -200%;
+    opacity: 0.8;
+  }
+  99% {
+    left: -200%;
     opacity: 0;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    white-space: nowrap;
-    color: black;
-    -webkit-animation: m1ani 30s infinite;
-            animation: m1ani 30s infinite;
   }
-  .namespace .m1:hover {
-    cursor: default;
-  }
-  .namespace .m2 {
+  100% {
+    left: 0%;
     opacity: 0;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    white-space: nowrap;
-    color: black;
   }
-  .namespace .m2:hover {
-    cursor: default;
+}
+
+@keyframes m1ani {
+  0% {
+    left: 100%;
+    opacity: 1;
   }
-  .namespace .m3 {
+  98% {
+    left: -200%;
+    opacity: 0.8;
+  }
+  99% {
+    left: -200%;
     opacity: 0;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    white-space: nowrap;
-    color: black;
   }
-  .namespace .m3:hover {
-    cursor: default;
-  }
-  .namespace .m4 {
+  100% {
+    left: 0%;
     opacity: 0;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    white-space: nowrap;
-    color: black;
   }
-  .namespace .m4:hover {
-    cursor: default;
+}
+
+.pause {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.pause:hover {
+  cursor: pointer;
+}
+
+.pause2 {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.pause2:hover {
+  cursor: pointer;
+}
+
+.pause3 {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+  width: 20px;
+  height: 20px;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.pause3:hover {
+  cursor: pointer;
+}
+
+#list:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+#listcls:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.listcont {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 50%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  border-radius: 5%;
+}
+
+.listcont .musiclist {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  width: 90%;
+}
+
+.listcont .musiclist #mc1 {
+  word-wrap: break-word;
+}
+
+.listcont .musiclist #mc1:hover {
+  cursor: pointer;
+  color: #efe2ff;
+}
+
+.listcont .musiclist #mc2 {
+  word-wrap: break-word;
+}
+
+.listcont .musiclist #mc2:hover {
+  cursor: pointer;
+  color: #efe2ff;
+}
+
+.listcont .musiclist #mc3 {
+  word-wrap: break-word;
+}
+
+.listcont .musiclist #mc3:hover {
+  cursor: pointer;
+  color: #efe2ff;
+}
+
+.replay1 {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+}
+
+.replay1 #rep1:hover {
+  cursor: pointer;
+  -webkit-animation: replayani 2s linear;
+          animation: replayani 2s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.replay2 {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+}
+
+.replay2 #rep2:hover {
+  cursor: pointer;
+  -webkit-animation: replayani 2s linear;
+          animation: replayani 2s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.replay3 {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+}
+
+.replay3 #rep3:hover {
+  cursor: pointer;
+  -webkit-animation: replayani 2s linear;
+          animation: replayani 2s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes replayani {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
-  .m1ani {
-    -webkit-animation: m1ani 30s linear infinite;
-            animation: m1ani 30s linear infinite;
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
   }
-  @-webkit-keyframes m1ani {
-    0% {
-      left: 100%;
-      opacity: 1;
-    }
-    98% {
-      left: -200%;
-      opacity: 0.8;
-    }
-    99% {
-      left: -200%;
-      opacity: 0;
-    }
-    100% {
-      left: 0%;
-      opacity: 0;
-    }
+}
+
+@keyframes replayani {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
-  @keyframes m1ani {
-    0% {
-      left: 100%;
-      opacity: 1;
-    }
-    98% {
-      left: -200%;
-      opacity: 0.8;
-    }
-    99% {
-      left: -200%;
-      opacity: 0;
-    }
-    100% {
-      left: 0%;
-      opacity: 0;
-    }
-  }
-  .pause {
-    position: absolute;
-    top: 90%;
-    left: 85%;
-    width: 20px;
-    height: 20px;
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
-  }
-  .pause:hover {
-    cursor: pointer;
-  }
-  .pause2 {
-    position: absolute;
-    top: 90%;
-    left: 85%;
-    width: 20px;
-    height: 20px;
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
-  }
-  .pause2:hover {
-    cursor: pointer;
-  }
-  .pause3 {
-    position: absolute;
-    top: 90%;
-    left: 85%;
-    width: 20px;
-    height: 20px;
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
-  }
-  .pause3:hover {
-    cursor: pointer;
-  }
-  #list:hover {
-    cursor: pointer;
-    opacity: 0.6;
-  }
-  #listcls:hover {
-    cursor: pointer;
-    opacity: 0.6;
-  }
-  .listcont {
-    background-color: rgba(255, 255, 255, 0.3);
-    width: 50%;
-    height: 80%;
-    position: absolute;
-    top: 10%;
-    left: 25%;
-    border-radius: 5%;
-  }
-  .listcont .musiclist {
-    position: absolute;
-    top: 0%;
-    left: 5%;
-    width: 90%;
-  }
-  .listcont .musiclist #mc1 {
-    word-wrap: break-word;
-  }
-  .listcont .musiclist #mc1:hover {
-    cursor: pointer;
-    color: #efe2ff;
-  }
-  .listcont .musiclist #mc2 {
-    word-wrap: break-word;
-  }
-  .listcont .musiclist #mc2:hover {
-    cursor: pointer;
-    color: #efe2ff;
-  }
-  .listcont .musiclist #mc3 {
-    word-wrap: break-word;
-  }
-  .listcont .musiclist #mc3:hover {
-    cursor: pointer;
-    color: #efe2ff;
-  }
-  .replay1 {
-    position: absolute;
-    top: 90%;
-    left: 85%;
-  }
-  .replay1 #rep1:hover {
-    cursor: pointer;
-    -webkit-animation: replayani 2s linear;
-            animation: replayani 2s linear;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-  }
-  .replay2 {
-    position: absolute;
-    top: 90%;
-    left: 85%;
-  }
-  .replay2 #rep2:hover {
-    cursor: pointer;
-    -webkit-animation: replayani 2s linear;
-            animation: replayani 2s linear;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-  }
-  .replay3 {
-    position: absolute;
-    top: 90%;
-    left: 85%;
-  }
-  .replay3 #rep3:hover {
-    cursor: pointer;
-    -webkit-animation: replayani 2s linear;
-            animation: replayani 2s linear;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-  }
-  @-webkit-keyframes replayani {
-    0% {
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(-360deg);
-              transform: rotate(-360deg);
-    }
-  }
-  @keyframes replayani {
-    0% {
-      -webkit-transform: rotate(0deg);
-              transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(-360deg);
-              transform: rotate(-360deg);
-    }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
   }
 }
 /*# sourceMappingURL=btm.css.map */
