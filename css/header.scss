@@ -15,14 +15,15 @@
         list-style: none;
         position: absolute;
         top: 3px;
+        
         .hdr1 {
             float: left;
             border: 2px solid white;
-            width: 100px;
+            width: 90px;
             height: 50px;
             text-align: center;
             position: absolute;
-            left: 0px;
+            left: 20px;
             top: 0px;
             border-radius: 3px;
             &:hover{
@@ -64,11 +65,11 @@
         .hdr2 {
             float: left;
             border: 2px solid white;
-            width: 100px;
+            width: 90px;
             height: 50px;
             text-align: center;
             position: absolute;
-            left: 100px;
+            left: 110px;
             top: 0px;
             border-radius: 3px;
             &:hover{
@@ -116,7 +117,7 @@
             height: 50px;
             text-align: center;
             position: absolute;
-            left: 200px;
+            left: 210px;
             top: 0px;
             border-radius: 3px;
             &:hover{
@@ -164,7 +165,7 @@
             height: 50px;
             text-align: center;
             position: absolute;
-            left: 300px;
+            left: 310px;
             top: 0px;
             border-radius: 3px;
             &:hover{
